@@ -1,3 +1,0 @@
-protoc --cpp_out=./ Cards.proto
-
-g++ compile : -lprotobuf -pthread
