@@ -1,0 +1,10 @@
+
+//传输协议
+
+syntax = 'proto2';
+
+message MessageBox {
+  required int32 type = 1;
+  repeated string trans_str = 2;
+  repeated double trans_photo = 3;
+}
