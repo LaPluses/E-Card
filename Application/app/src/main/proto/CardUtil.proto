@@ -1,0 +1,24 @@
+syntax = "proto2";
+
+option java_package = "com.example.hezhu";
+option java_outer_classname = "CardUtil";
+
+enum CardType {
+    IDCard = 1;
+    DriverCard = 2;
+    StudentCard = 3;
+    SocialSecurityCard = 4;
+    DisabledCard = 5;
+}
+
+message Card {
+    optional int32 cardID = 1;
+    required CardType cardType = 2;
+    repeated string fields = 3;
+    required bytes image = 4;
+    optional int32 checkflag = 5;
+}
+
+message Cards {
+    repeated Card cards = 1;
+}

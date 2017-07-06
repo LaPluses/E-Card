@@ -1,0 +1,11 @@
+<resources>
+    <string name="capture">人脸居中并确认</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="app_name">E-card</string>
+    <string name="title_activity_login">Main2Activity</string>
+    <string name="transition_card">transition_card</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

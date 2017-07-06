@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rotate"
+        android:icon="@drawable/ic_rotate_right_white_48dp"
+        app:showAsAction="always"
+        android:title=""/>
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/done"
+        app:showAsAction="always"
+        android:title="完成"/>
+</menu>

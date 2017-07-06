@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+option java_package = "com.example.hezhu";
+option java_outer_classname = "MessageUtil";
+
+message MessageBox {
+    required int32 type = 1;
+    repeated string trans_str = 2;
+    repeated double trans_photo = 3;
+}
